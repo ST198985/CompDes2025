@@ -1,3 +1,15 @@
+
+# Questionnaire: For what purposes did you use Generative AI / LLMs when completing your assignment?
+# [x] Not at all
+# [] Which ones did you use? (e.g., ChatGPT, Bard, etc.) _____________
+# [] Explaining programming concepts
+# [] Practicing coding exercises
+# [] Debugging code
+# [] Reviewing your Python code
+# [] Optimizing code
+# [] Writing or completing code
+# [] Other (please specify): _____________
+
 # 1.
 
 width = input("Enter the width of a room in meters: ")
