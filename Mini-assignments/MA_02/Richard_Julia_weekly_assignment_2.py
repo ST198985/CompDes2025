@@ -77,30 +77,32 @@ print(student_data)
 #2
 
 student_1_name=input("Please enter student's name. ")
-student_1_age_str=input("How old is " + student_1_name + " ? ")
-student_1_age=float(student_1_age_str)
-student_1_country=input("What country is " + student_1_name + " from? ")
 
-student_1_data={
-    "Age" : student_1_age,
-    "Country" : student_1_country
-}
+if student_1_name != "":
+  student_1_age_str=input("How old is " + student_1_name + " ? ")
+  student_1_age=float(student_1_age_str)
+  student_1_country=input("What country is " + student_1_name + " from? ")
+
+  student_1_data={
+      "Age" : student_1_age,
+      "Country" : student_1_country
+  }
+
+  student_data[student_1_name]=student_1_data
 
 student_2_name=input("Please enter student's name. ")
-student_2_age_str=input("How old is " + student_2_name + " ? ")
-student_2_age=float(student_2_age_str)
-student_2_country=input("What country is " + student_2_name + " from? ")
 
-student_2_data={
-    "Age" : student_2_age,
-    "Country" : student_2_country
-}
+if student_2_name != "":
+  student_2_age_str=input("How old is " + student_2_name + " ? ")
+  student_2_age=float(student_2_age_str)
+  student_2_country=input("What country is " + student_2_name + " from? ")
 
-#If student_1_name is empty/0, skip to student_2_name, and leave student_1_data out of student_data
-#If student_2_name is empty/0, leave student_2_data out of the student_data
-
-student_data[student_1_name]=student_1_data
-student_data[student_2_name]=student_2_data
+  student_2_data={
+      "Age" : student_2_age,
+      "Country" : student_2_country
+  }
+  
+  student_data[student_2_name]=student_2_data
 
 print(student_data)
 
