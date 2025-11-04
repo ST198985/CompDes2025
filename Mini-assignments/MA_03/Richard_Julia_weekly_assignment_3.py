@@ -1,3 +1,54 @@
+"""
+Questionnaire: For what purposes did you use Generative AI / LLMs when completing your assignment?
+[] Not at all
+[x] Which ones did you use? (e.g., ChatGPT, Bard, etc.) Gemini
+[x] Explaining programming concepts
+[] Practicing coding exercises
+[x] Debugging code
+[x] Reviewing your Python code
+[x] Optimizing code
+[] Writing or completing code
+[] Other (please specify): _____________
+
+"""  
+
+
+"""
+Assignment 3: Building Information Modeling (BIM) Tool
+
+Think of an inspiring building, pavilion, or structure that you would like to explore more.
+
+Imagine you are developing a Building Information Modeling (BIM) Tool that stores information about different building elements of your chosen building inspiration.
+Your task is to create a Python program that interacts with the user to collect and analyze data using dictionaries, loops, built-in functions, user-defined functions (UDFs), and lambda functions.
+The program should perform the following tasks:
+
+
+1. Create a dictionary called building_elements that will store information about various building elements.
+Each element should be identified by a unique key (e.g., a string or integer).
+The value associated with each key should be another dictionary containing information such as the following:
+
+key: The unique key for the element. (e.g. InW.01.23)
+type: The type of the building element (e.g., "wall," "window," "door," etc.).
+room: The name of the room assigned to the element (e.g., "living room," "staircase," etc.).
+length: The length of the element in meters.
+height: The height of the element in meters.
+thickness: The width of the element in meters.
+or other
+
+2. Create a function called add_element that allows users to add a new building element to the building_elements dictionary.
+This function should contained the previous parameters you defined:
+
+3. Use lambda functions for calculate_area and calculate_volume.
+
+4. Create a function called get_elements_by_type to list elements of a chosen type (e.g., "wall," "window," "door").
+
+5. Use built-in functions like sum(), max(), or len() to summarize data.
+
+6. Include a menu loop allowing users to repeatedly perform actions until they choose to exit.
+"""
+
+
+
 
 building_elements={}
 
