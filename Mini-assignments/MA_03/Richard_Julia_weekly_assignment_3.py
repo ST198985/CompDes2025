@@ -213,13 +213,3 @@ while True:
 
     else:
         print("Invalid input. Please enter A, B, C, D, of E.")
-
-
-
-#total/added length of all "Type" using sum (eg. total length of all walls is 12.4m)
-#total/added surface area of all "Type" using sum (eg. total surface area of all walls is 40.8m2)
-#total/added volume of all "Type" using sum (eg. total volume of all walls is 60.3m3)
-
-#total/added length of "Type" per room name using sum
-#total/added surface area of "Type" per room name using sum
-#total/added volume of "Type" per room name using sum
